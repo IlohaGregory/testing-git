@@ -51,7 +51,7 @@ end
     Places the ball in the middle of the screen, with no movement.
 ]]
 function Ball:reset()
-    self.x = VIRTUAL_WIDTH / 2 - 2
+    self.x = VIRTUAL_WIDTH / 2 - 3
     self.y = VIRTUAL_HEIGHT / 2 - 2
     self.dx = 0
     self.dy = 0
@@ -65,4 +65,5 @@ end
 function Ball:render()
     love.graphics.rectangle('fill', self.x, self.y, self.width, self.height)
 end
---git testing
+--runnusijjjnsakjnbj
+
